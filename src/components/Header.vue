@@ -12,7 +12,7 @@
           <router-link class="li" to="/about-author">About Autor</router-link>
         </li>
         <li>
-          <router-link class="li" to="/authorization-page">Sign In</router-link>
+          <router-link class="li" to="/">Sign In</router-link>
         </li>
       </ul>
     </div>

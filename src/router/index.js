@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 import StartPage from '../components/StartPage.vue'
 import AboutAuthorPage from '../components/AboutAuthorPage.vue'
 import AdminPanelPage from '../components/AdminPanelPage.vue'
-import AuthorizationPage from '../components/AuthorizationPage.vue'
 import AddingNewArticlePage from '../components/AddingNewArticlePage.vue'
 import ArticleEditPage from '../components/ArticleEditPage.vue'
 import OneArticlePage from '../components/OneArticlePage.vue'
@@ -17,11 +16,6 @@ const routes = [
     path: '/',
     name: 'StartPage',
     component: StartPage
-  },
-	{
-    path: '/authorization-page',
-    name: 'AuthorizationPage',
-    component: AuthorizationPage
   },
   {
     path: '/admin-panel',

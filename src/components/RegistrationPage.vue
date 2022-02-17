@@ -114,7 +114,7 @@ export default {
     border: 1px solid #397db4;
   }
   .wrap {
-    margin-top: 15%;
+    margin-top: 10%;
     justify-content: center;
 
     form {
